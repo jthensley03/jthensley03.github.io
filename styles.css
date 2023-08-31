@@ -3,9 +3,11 @@ body {
 }
 h1 {
     color: black;
+    font-family: "gill sans";
 }
 p {
     color: black;
+    font-family: "gill sans";
 }
 img.profile {
     border-radius: 50%;
