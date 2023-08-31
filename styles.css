@@ -7,6 +7,18 @@ h1 {
 p {
     color: red;
 }
+img.profile {
+    border-radius: 50%;
+}
+img.gallery {
+    width: auto;
+    height: auto;
+}
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .button {
     background-color: #1c87c9;
     border: none;
