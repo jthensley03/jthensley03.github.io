@@ -40,7 +40,7 @@ span.galleryRow {
     padding: 0 4px;
 }
 .column {
-    flex: 50%;
+    flex: 25%;
     padding: 0 4px;
 }
 .column img {
