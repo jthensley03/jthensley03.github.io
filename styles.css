@@ -9,6 +9,9 @@ p {
     color: black;
     font-family: "Gill Sans", "Gill Sans MT";
 }
+li {
+    font-family: "Gill Sans", "Gill Sans MT";
+}
 img.profile {
     border-radius: 50%;
     height: 100%;
