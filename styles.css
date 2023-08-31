@@ -9,8 +9,8 @@ p {
 }
 img.profile {
     border-radius: 50%;
-    height: 95%;
-    width: 95%;
+    height: 100%;
+    width: 100%;
 }
 div.profile {
   display: flex;
