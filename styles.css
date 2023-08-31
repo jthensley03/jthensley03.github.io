@@ -26,10 +26,6 @@ div.profile {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-img.gallery {
-    width: 100%;
-    height: 100%;
-}
 span.galleryRow {
     width: 90%;
     height: 20%;
@@ -43,7 +39,7 @@ span.galleryRow {
     flex: 25%;
     padding: 0 4px;
 }
-.column img {
+img.gallery {
     margin-top: 8px;
     vertical-align: middle;
 }
