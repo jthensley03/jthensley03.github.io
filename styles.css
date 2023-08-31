@@ -32,7 +32,6 @@ img.gallery {
 }
 div.galleryRow {
     display: inline-block;
-    justify-content: center;
     width: 90%;
     height: 20%;
 }
