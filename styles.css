@@ -26,10 +26,6 @@ div.profile {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-span.galleryRow {
-    width: 90%;
-    height: 20%;
-}
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -44,6 +40,8 @@ img.gallery {
     vertical-align: middle;
 }
 div.polaroid {
+}
+div.pol {
     width: 25%;
     height: 100%;
     background-color: white;
