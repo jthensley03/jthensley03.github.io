@@ -7,7 +7,7 @@ h1 {
 p {
     color: red;
 }
-button {
+.button {
     background-color: #1c87c9;
     border: none;
     color: white;
