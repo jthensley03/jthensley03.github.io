@@ -12,6 +12,9 @@ img.profile {
     height: 100%;
     width: 100%;
 }
+div.header {
+    display: inline-block;
+}
 div.profile {
     display: flex;
     justify-content: center;
