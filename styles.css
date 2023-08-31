@@ -35,7 +35,7 @@ div.profile {
     flex: 25%;
     padding: 0 4px;
 }
-.column img {
+img.gallery {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
