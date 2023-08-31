@@ -51,11 +51,13 @@ div.polaroid {
 .dropbtn {
     background-color: transparent;
     color: black;
-    padding: 20px;
+    padding: 0px;
     font-size: 60px;
     border: none;
     cursor: pointer;
     float: left;
+    left: 60 px;
+    top: 50%;
 }
 .dropdown {
     position: relative;
