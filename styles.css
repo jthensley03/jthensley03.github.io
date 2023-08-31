@@ -8,6 +8,8 @@ p {
     color: red;
 }
 img.profile {
+    margin: auto;
+    display: block;
     border-radius: 50%;
     height: 95%;
     width: 95%;
@@ -16,8 +18,8 @@ div.profile {
   border-radius: 50%;
   position: relative;
   right: 30px;
-  width: 80%;
-  height: 80%
+  width: 10%;
+  height: 10%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
