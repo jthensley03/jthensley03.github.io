@@ -9,6 +9,10 @@ p {
 }
 img.profile {
     border-radius: 50%;
+    float: right;
+    height: 20%;
+    width: 20%;
+    border: 2 px solid white;
 }
 img.gallery {
     width: auto;
