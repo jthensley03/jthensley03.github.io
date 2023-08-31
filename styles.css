@@ -55,19 +55,19 @@ div.polaroid {
     font-size: 60px;
     border: none;
     cursor: pointer;
-    float: left;
-    left: 60 px;
-    top: 50%;
 }
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: inline-blocki;
+    float: left;
+    left: 60 px;
+    top: 50%;
 }
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: transparent;
-    min-width: 160px;
+    min-width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -76,9 +76,6 @@ div.polaroid {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-}
-.dropdown-content a:hover {
-    background-color: #f1f1f1
 }
 .dropdown:hover .dropdown-content {
     display: block;
