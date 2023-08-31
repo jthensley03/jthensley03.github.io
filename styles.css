@@ -14,7 +14,7 @@ img.profile {
 }
 div.header {
     display: inline-block;
-    padding: 10px;
+    line-height: 50%;
 }
 div.profile {
     display: flex;
@@ -51,7 +51,7 @@ div.polaroid {
 .dropbtn {
     background-color: transparent;
     color: black;
-    padding: 0px;
+    padding: 20px;
     font-size: 60px;
     border: none;
     cursor: pointer;
