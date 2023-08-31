@@ -8,13 +8,13 @@ p {
     color: red;
 }
 img.profile {
-    margin: auto;
-    display: block;
     border-radius: 50%;
     height: 95%;
     width: 95%;
 }
 div.profile {
+  display: flex;
+  justify-content: center;
   border-radius: 50%;
   position: relative;
   right: 30px;
