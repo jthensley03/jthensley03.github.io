@@ -19,7 +19,7 @@ img.profile {
 }
 .container {
     display: grid;
-    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-columns: 60px 150px auto 150px 60px;
     grid-template-rows: 20% 30% auto;
     column-gap: 10px;
     row-gap: 15px;
@@ -55,8 +55,6 @@ div.profile {
     justify-content: center;
     border-radius: 50%;
     float: left;
-    width: 10%;
-    height: 10%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
