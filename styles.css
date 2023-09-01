@@ -19,7 +19,7 @@ img.profile {
 }
 .container {
     display: grid;
-    grid-template-columns: 60px 150px auto 150px 60px;
+    grid-template-columns: 15%  auto 15%;
     grid-template-rows: 20% 30% auto;
     column-gap: 10px;
     row-gap: 15px;
@@ -40,7 +40,7 @@ img.profile {
 }
 .item-goals {
   grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
 }
