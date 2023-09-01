@@ -18,9 +18,8 @@ img.profile {
     width: 100%;
 }
 div.header {
-    display: inline-block;
-    line-height: 50%;
-    padding: 100px;
+    display: inline;
+    padding: 20px.
 }
 div.profile {
     display: flex;
