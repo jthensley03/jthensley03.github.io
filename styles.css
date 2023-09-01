@@ -17,8 +17,7 @@ img.profile {
     height: 100%;
     width: 100%;
 }
-div.header {
-    display: inline;
+div.container {
     padding: 20px;
 }
 div.profile {
