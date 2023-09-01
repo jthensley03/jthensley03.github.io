@@ -19,36 +19,36 @@ img.profile {
 }
 .container {
     display: grid;
-    grid-template-columns: [first] 40px [second] 50px [third] auto [fourth] 50px [fifth] 40px;
-    grid-template-rows: [row1-start] 20% [row1-end] 30% [third-line] auto [last-line];
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 20% 30% auto;
     column-gap: 10px;
     row-gap: 15px;
     justify-items: start;
     align-items: end;
 }
 .item-profile {
-  grid-column-start: first;
-  grid-column-end: second;
-  grid-row-start: row1-start;
-  grid-row-end: row1-end;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 .item-name {
-  grid-column-start: second;
-  grid-column-end: third;
-  grid-row-start: row1-start;
-  grid-row-end: row1-end;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 .item-goals {
-  grid-column-start: first;
-  grid-column-end: second;
-  grid-row-start: row1-end;
-  grid-row-end: third-line;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 .item-aboutme {
-  grid-column-start: first;
-  grid-column-end: second;
-  grid-row-start: third-line;
-  grid-row-end: last-line;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 div.profile {
     display: flex;
