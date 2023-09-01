@@ -19,8 +19,8 @@ img.profile {
 }
 .container {
     display: grid;
-    grid-template-columns: 15%  auto 15%;
-    grid-template-rows: 20% 30% auto;
+    grid-template-columns: 300px  auto 300px;
+    grid-template-rows: 300px auto;
     column-gap: 10px;
     row-gap: 15px;
     justify-items: start;
@@ -45,10 +45,10 @@ img.profile {
   grid-row-end: 3;
 }
 .item-aboutme {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 div.profile {
     display: flex;
