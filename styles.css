@@ -59,7 +59,7 @@ img.gallery {
     cursor: pointer;
     font-family: "Gill Sans", "Gill Sans MT";
 }
-a {
+a.hyperlink {
     font-family: "Gill Sans", "Gill Sans MT";
 }
 .dropbtn {
