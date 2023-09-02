@@ -30,6 +30,8 @@ img.profile {
     grid-row-start: 1;
     grid-row-end: 2;
     align-self: center;
+    position: fixed;
+    z-index: 1;
 }
 .item-name {
     grid-column-start: 2;
@@ -37,6 +39,8 @@ img.profile {
     grid-row-start: 1;
     grid-row-end: 2;
     align-self: center;
+    position: fixed;
+    z-index: 1;
 }
 .item-goals {
     grid-column-start: 2;
@@ -52,6 +56,17 @@ img.profile {
     grid-row-end: 2;
     align-self: start;
     justify-self: end;
+    position: fixed;
+    z-index: 1;
+}
+.item-header {
+    position: fixed;
+    background-color: #E1D9D1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    z-index: 0;
 }
 div.profile {
     display: flex;
