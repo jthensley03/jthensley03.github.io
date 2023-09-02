@@ -19,9 +19,10 @@ img.profile {
 }
 .container-header {
     top: 0;
+    left: 0;
     display: grid;
     position: fixed;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 500px auto 500px;
     grid-template-rows: 100px;
     column-gap: 0;
     row-gap: 0;
@@ -60,8 +61,8 @@ img.profile {
     align-self: start;
 }
 .item-aboutme {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
     align-self: start;
@@ -71,10 +72,12 @@ img.profile {
 .item-header {
     background-color: #E1D9D1;
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
     z-index: 2;
+    justify-self: stretch;
+    align-self: stretch; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 div.profile {
