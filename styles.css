@@ -1,5 +1,8 @@
 body {
     background-color: #FFFDFA;
+    height: 100%;
+    margin: 0;
+    width: 100%;
 }
 h1 {
     color: black;
@@ -27,6 +30,7 @@ img.profile {
     column-gap: 0;
     row-gap: 0;
     z-index: 2;
+    min-width: 100%;
 }
 .container {
     top: 120px;
