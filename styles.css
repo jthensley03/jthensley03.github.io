@@ -12,6 +12,9 @@ p {
 li {
     font-family: "MD Primer Bold",Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
 }
+.page {
+    display: block;
+}
 img.profile {
     border-radius: 50%;
     height: 100%;
@@ -49,10 +52,10 @@ img.profile {
     z-index: 1;
 }
 .item-goals {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
     align-self: start;
 }
 .item-aboutme {
