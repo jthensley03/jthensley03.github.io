@@ -118,7 +118,19 @@ a.hyperlink {
     font-size: 50px;
     outline-style: ridge;
     outline-color: black;
-    border-radius: 95%;
+    outline-width: 2px;
+    border-radius: 25px;
+    font-family: "MD Primer Bold",Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    outline-style: ridge;
+    outline-width: 2px;
+    outline-color: black;
+    border-radius: 25px%;
     font-family: "MD Primer Bold",Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
 }
 .dropdown:hover .dropdown-content {
