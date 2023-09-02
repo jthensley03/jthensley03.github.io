@@ -19,8 +19,8 @@ img.profile {
 }
 .container {
     display: grid;
-    grid-template-columns: 200px auto 200px;
-    grid-template-rows: 200px auto;
+    grid-template-columns: 125px auto 125px;
+    grid-template-rows: 125px auto;
     column-gap: 10px;
     row-gap: 15px;
     justify-items: start;
