@@ -120,18 +120,17 @@ a.hyperlink {
     display: block;
 }
 .dropdown-item {
-    outline-style: ridge;
-    outline-width: 1px;
-    outline-color: black;
-    border-radius: 25px;
+    border-radius: 10px;
     font-family: "MD Primer Bold",Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+    text-decoration: none;
     color: black;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .dropdown:hover .dropdown-content {
     display: block;
+    padding: 5px;
 }
 .dropdown-item a:hover {
-    font-size: 60px;
+    font-size: 30px;
     background-color: #E1D9D1;
 }
