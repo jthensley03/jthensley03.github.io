@@ -122,6 +122,8 @@ img.gallery {
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
+    min-height: 100%
+    border-radius: 10px;
     font-family: "MD Primer Bold",Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
 }
 a.hyperlink {
