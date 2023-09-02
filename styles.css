@@ -12,16 +12,13 @@ p {
 li {
     font-family: "MD Primer Bold",Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
 }
-.page {
-    display: block;
-    padding: 12px 16px;
-}
 img.profile {
     border-radius: 50%;
     height: 100%;
     width: 100%;
 }
 .container-header {
+    top: 0;
     display: grid;
     position: fixed;
     grid-template-columns: 600px auto 300px;
@@ -31,6 +28,7 @@ img.profile {
     z-index: 2;
 }
 .container {
+    top: 120px;
     display: grid;
     grid-template-columns: 165px auto 165px;
     grid-template-rows: auto;
