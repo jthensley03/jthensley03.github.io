@@ -23,8 +23,6 @@ img.profile {
     grid-template-rows: 165px auto;
     column-gap: 40px;
     row-gap: 15px;
-    justify-items: start;
-    align-items: end;
 }
 .item-profile {
     grid-column-start: 1;
