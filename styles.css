@@ -115,6 +115,11 @@ a.hyperlink {
     min-width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    font-size: 50px;
+    outline-style: ridge;
+    outline-color: black;
+    border-radius: 80%;
+    font-family: "MD Primer Bold",Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
 }
 .dropdown-content a {
     color: black;
@@ -128,6 +133,8 @@ a.hyperlink {
 }
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.dropdown-content:hover {
     font-size: 60px;
     background-color: #E1D9D1;
 }
