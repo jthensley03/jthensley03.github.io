@@ -53,7 +53,7 @@ img.profile {
     grid-row-start: 1;
     grid-row-end: 2;
     align-self: start;
-    justify-self: start;
+    justify-self: end;
 }
 div.profile {
     display: flex;
