@@ -21,14 +21,15 @@ img.profile {
     top: 0;
     display: grid;
     position: fixed;
-    grid-template-columns: 600px auto 300px;
+    grid-template-columns: 600px auto;
     grid-template-rows: 100px;
-    column-gap: 40px;
-    row-gap: 15px;
+    column-gap: 0;
+    row-gap: 0;
     z-index: 2;
 }
 .container {
     top: 120px;
+    position: relative;
     display: grid;
     grid-template-columns: 165px auto 165px;
     grid-template-rows: auto;
@@ -59,8 +60,8 @@ img.profile {
     align-self: start;
 }
 .item-aboutme {
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
     align-self: start;
@@ -70,7 +71,7 @@ img.profile {
 .item-header {
     background-color: #E1D9D1;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
     z-index: 2;
@@ -128,7 +129,7 @@ a.hyperlink {
     position: relative;
     display: inline-blocki;
     float: left;
-    left: 200 px;
+    left: 300 px;
     top: 50%;
 }
 .dropdown-content {
