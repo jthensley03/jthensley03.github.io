@@ -113,30 +113,25 @@ a.hyperlink {
     position: absolute;
     background-color: transparent;
     min-width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    font-size: 50px;
-    outline-style: ridge;
-    outline-color: black;
-    outline-width: 2px;
-    border-radius: 25px;
-    font-family: "MD Primer Bold",Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
 }
 .dropdown-content a {
-    color: black;
     padding: 12px 16px;
-    text-decoration: none;
     display: block;
+}
+.dropdown-item {
     outline-style: ridge;
     outline-width: 2px;
     outline-color: black;
     border-radius: 25px%;
     font-family: "MD Primer Bold",Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.dropdown-content:hover {
+.dropdown-item:hover {
     font-size: 60px;
     background-color: #E1D9D1;
 }
