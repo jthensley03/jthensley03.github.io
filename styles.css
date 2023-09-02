@@ -132,5 +132,7 @@ a.hyperlink {
 }
 .dropdown-item a:hover {
     font-size: 30px;
+    border-radius: 10px;
+    text-decoration: none;
     background-color: #E1D9D1;
 }
