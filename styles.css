@@ -21,7 +21,7 @@ img.profile {
     display: grid;
     grid-template-columns: 125px auto 125px;
     grid-template-rows: 125px auto;
-    column-gap: 10px;
+    column-gap: 80px;
     row-gap: 15px;
     justify-items: start;
     align-items: end;
