@@ -78,8 +78,6 @@ img.profile {
     z-index: 3;
 }
 .item-header {
-    width: 80%;
-    height: 80%;
     background-color: #1c87c9;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -91,6 +89,8 @@ img.profile {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 div.profile {
+    width: 80%;
+    height: 80%;
     display: flex;
     justify-content: center;
     border-radius: 50%;
