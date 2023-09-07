@@ -49,6 +49,8 @@ img.profile {
     grid-row-end: 2;
     align-self: end;
     justify-self: center;
+    outline-style: solid;
+    outline-color: black;
 }
 .item-name {
     grid-column-start: 1;
