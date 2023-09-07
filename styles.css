@@ -93,6 +93,7 @@ div.profile {
     height: 80%;
     display: flex;
     justify-content: center;
+    margin: auto;
     border-radius: 50%;
     float: left;
     background-color: white;
@@ -132,6 +133,7 @@ a.hyperlink {
     font-family: "MD Primer Bold",Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
 }
 .dropbtn {
+    min-height: 100%;
     background-color: transparent;
     color: white;
     padding: 0px;
