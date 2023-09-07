@@ -183,6 +183,6 @@ a.hyperlink {
     font-size: 30px;
     border-radius: 10px;
     text-decoration: none;
-    background-color: #E1D9D1;
+    background-color: transparent;
     text-color: white;
 }
