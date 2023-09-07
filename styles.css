@@ -38,7 +38,7 @@ img.profile {
     display: grid;
     grid-template-columns: 300px auto 300px;
     grid-template-rows: auto;
-    column-gap: 100px;
+    column-gap: 80px;
     row-gap: 15px;
     z-index: 1;
 }
@@ -150,7 +150,7 @@ a.hyperlink {
     display: none;
     position: absolute;
     background-color: #1c87c9;
-    width: 50%;
+    width: 80%;
     text-decoration: none;
     z-index: 1;
     color: white;
