@@ -47,7 +47,7 @@ img.profile {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    align-self: center;
+    align-self: end;
     justify-self: center;
 }
 .item-name {
@@ -156,6 +156,7 @@ a.hyperlink {
     min-width: 100%;
     text-decoration: none;
     z-index: 1;
+    color: white;
     text-color: white;
     border-radius: 10px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -163,6 +164,7 @@ a.hyperlink {
 .dropdown-content a {
     padding: 12px 16px;
     display: block;
+    color: white;
     text-decoration: none;
 }
 .dropdown-item {
@@ -177,6 +179,7 @@ a.hyperlink {
     text-decoration: none;
     padding: 12px 16px;
     text-color: white;
+    color: white;
 }
 .dropdown-item a:hover {
     padding: 12px 16px;
@@ -185,4 +188,5 @@ a.hyperlink {
     text-decoration: none;
     background-color: transparent;
     text-color: white;
+    color: white;
 }
