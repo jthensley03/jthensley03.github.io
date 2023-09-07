@@ -72,7 +72,7 @@ img.profile {
     grid-row-start: 1;
     grid-row-end: 2;
     align-self: center;
-    justify-self: end;
+    justify-self: center;
     min-height: 100%
     border-radius: 10px;
     z-index: 3;
@@ -120,7 +120,7 @@ img.gallery {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 50px;
+    font-size: 30px;
     cursor: pointer;
     min-height: 100%;
     border-radius: 10px;
