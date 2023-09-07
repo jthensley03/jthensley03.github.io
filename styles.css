@@ -25,7 +25,7 @@ img.profile {
     left: 0;
     display: grid;
     position: fixed;
-    grid-template-columns: 500px auto 500px;
+    grid-template-columns: 500px auto 200px;
     grid-template-rows: 100px;
     column-gap: 0;
     row-gap: 0;
