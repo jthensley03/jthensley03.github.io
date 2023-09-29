@@ -72,32 +72,32 @@
         </ol>
     </div>
     <div id="contact-popup" class="contact-popup">
-        <form id="contactForm" name="contactForm">
+        <form class="contact-form" id="contactForm" name="contactForm" onsubmit="return false;">
             <div class="form-group">
-                <label for="user_fname">First Name</label>
+                <label class="form-label" for="user_fname">First Name</label>
                 <br>
-                <input onchange="validateContactForm()" class="form-control" id="user_fname" name="user_fname" type="text" placeholder="Enter First Name">
+                <input class="form-control" id="user_fname" name="user_fname" type="text" placeholder="Enter First Name">
                 <br>
                 <label for="user_lname">Last Name</label>
                 <br>
-                <input onchange="validateContactForm()" class="form-control" id="user_lname" name="user_lname" type="text" placeholder="Enter Last Name">
+                <input class="form-control" id="user_lname" name="user_lname" type="text" placeholder="Enter Last Name">
                 <br>
                 <label for="user_email">Email address</label>
                 <br>
-                <input onchange="validateContactForm()" type="email" class="form-control" id="user_email" placeholder="Enter Email">
+                <input type="email" class="form-control" id="user_email" placeholder="Enter Email">
                 <br>
                 <label for="user_phone">Phone number</label>
                 <br>
-                <input onchange="validateContactForm()" class="form-control" id="user_phone" name="user_phone" type="text" placeholder="123-456-7890">
+                <input class="form-control" id="user_phone" name="user_phone" type="text" placeholder="123-456-7890">
                 <br>
                 <label for="user_message">Message</label>
                 <br>
-                <textarea onchange="validateContactForm()" class="form-control" id="user_message" name="user_message" type="text" rows="6" cols="60"></textarea>
+                <textarea class="form-control" id="user_message" name="user_message" type="text" rows="6" cols="60"></textarea>
             </div>
-            <button type="submit">Submit</button>
-            <button onClick="hideContactPopup()">Exit</button>
+            <button type="submit" class="contact-button">Submit</button>
+            <button onClick="hideContactPopup()" class="contact-button">Exit</button>
         </form>
-        <p id="formError"></p>
+        <p class="formError" id="formError"></p>
     </div>
 </div>
 

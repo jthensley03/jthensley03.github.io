@@ -23,12 +23,14 @@ function setErrorMessage(errorMessage) {
 }
 
 function validateContactForm() {
+    var passed = false;
     let user_fname = document.getElementById("user_fname").value;
     let user_lname = document.getElementById("user_lname").value;
     let user_email = document.getElementById("user_email").value;
     let user_phone = document.getElementById("user_phone").value;
     let user_message = document.getElementById("user_message").value;
     var phoneRegex = /^([0-9]{3})-([0-9]{3})-([0-9]{4})$/;
+    var emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     if (user_fname == "") {
         let errorMessage = "Please enter your first name";
         setErrorMessage(errorMessage);
@@ -58,32 +60,32 @@ function validateContactForm() {
     } else if (phoneRegex.test(user_phone) == false) {
         let errorMessage = "Invalid phone number";
         setErrorMessage(errorMessage);
-    } else {
-        setErrorMessage("");
-    }
-/*
-    var fs = require("fs");
-    var text = fs.readFileSync("domains.txt").toString('utf-8');
-    var domains = text.split("\n");
-    let user_domain = user_email.substring(user_email.indexOf("@"));
-    let user_domain = user_domain.substring(0, user_doamin.indexOf("."));
-    if (!(domains.includes(user_domain))) {
+    } else if (!(emailRegex.test(user_email))) {
         let errorMessage = "Invalid email";
         setErrorMessage(errorMessage);
+    } else {
+        setErrorMessage("");
+        passed = true;
     }
-*/
+    console.log("passed " + passed);
+    return passed;
 }
 
 emailjs.init('oI9cSzYQi-CbJD0OE');
 
 window.onload = function() {
     document.getElementById('contactForm').addEventListener('submit', function(event) {
-        event.preventDefault();
-        emailjs.sendForm('service_o0joyin', 'template_3pgmocg', this)
-            .then(function() {
-                console.log('SUCCESS!');
-            }, function(error) {
-                console.log('FAILED...', error);
-            });
+        if(validateContactForm()) {
+            event.preventDefault();
+            emailjs.sendForm('service_o0joyin', 'template_3pgmocg', this)
+                .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            document.getElementById("user_message").value = "";
+            console.log(document.getElementById("user_email").value);
+            hideContactPopup();
+        }
     });
 }
