@@ -1,3 +1,6 @@
+.div-as-span {
+    display: inline-block;
+}
 .contact-button {
     font-family: "MD Primer Bold",Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
     background-color: #f8f9fa;
