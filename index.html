@@ -3,7 +3,8 @@
 <head>
     <link rel="stylesheet" href="css/styles.css">
     <title>Jason's Awesome Website</title>
-    <script type='text/javascript' src='js/index.js'></script>
+    <script defer type='text/javascript' src='js/index.js'></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
 
@@ -75,29 +76,27 @@
             <div class="form-group">
                 <label for="user_fname">First Name</label>
                 <br>
-                <input class="form-control" id="user_fname" name="user_fname" type="text" placeholder="Enter First Name">
+                <input onchange="validateContactForm()" class="form-control" id="user_fname" name="user_fname" type="text" placeholder="Enter First Name">
                 <br>
                 <label for="user_lname">Last Name</label>
                 <br>
-                <input class="form-control" id="user_lname" name="user_lname" type="text" placeholder="Enter Last Name">
+                <input onchange="validateContactForm()" class="form-control" id="user_lname" name="user_lname" type="text" placeholder="Enter Last Name">
                 <br>
                 <label for="user_email">Email address</label>
                 <br>
-                <input type="email" class="form-control" id="user_email" placeholder="Enter Email">
+                <input onchange="validateContactForm()" type="email" class="form-control" id="user_email" placeholder="Enter Email">
                 <br>
                 <label for="user_phone">Phone number</label>
                 <br>
-                <input class="form-control" id="user_phone" name="user_phone" type="text" placeholder="123-456-7890">
+                <input onchange="validateContactForm()" class="form-control" id="user_phone" name="user_phone" type="text" placeholder="123-456-7890">
                 <br>
                 <label for="user_message">Message</label>
                 <br>
-                <textarea class="form-control" id="user_message" name="user_message" type="text" rows="6" cols="60"></textarea>
+                <textarea onchange="validateContactForm()" class="form-control" id="user_message" name="user_message" type="text" rows="6" cols="60"></textarea>
             </div>
-            <button type="submit" onClick="validateContactForm()">Submit</button>
+            <button type="submit">Submit</button>
             <button onClick="hideContactPopup()">Exit</button>
         </form>
-    </div>
-    <div id="formErrorPopup" class="item-formError">
         <p id="formError"></p>
     </div>
 </div>
