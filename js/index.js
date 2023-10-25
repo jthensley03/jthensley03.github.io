@@ -68,6 +68,7 @@ function validateContactForm() {
         passed = true;
     }
     console.log("passed " + passed);
+    console.log("validate user_email: " + user_email);
     return passed;
 }
 

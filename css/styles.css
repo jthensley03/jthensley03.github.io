@@ -86,7 +86,7 @@ img.profile {
     left: 0;
     display: grid;
     position: fixed;
-    grid-template-columns: 500px auto 200px 200px 200px;
+    grid-template-columns: 500px auto 200px 200px 200px 200px;
     grid-template-rows: 100px;
     column-gap: 0;
     row-gap: 0;
@@ -149,9 +149,20 @@ img.profile {
     border-radius: 10px;
     z-index: 3;
 }
-.item-aboutme {
+.item-resume {
     grid-column-start: 5;
     grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    justify-self: center;
+    min-height: 100%
+    border-radius: 10px;
+    z-index: 3;
+}
+.item-aboutme {
+    grid-column-start: 6;
+    grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 2;
     align-self: center;
@@ -163,7 +174,7 @@ img.profile {
 .item-header {
     background-color: #1c87c9;
     grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 2;
     z-index: 2;
