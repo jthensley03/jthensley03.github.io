@@ -94,15 +94,15 @@ img.profile {
     width: 100%;
     background-color: #1c87c9;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 10%;
+    height: 7%;
 }
 .container {
-    top: 120px;
-    position: relative;
+    top: 10%;
+    width: 100%;
+    position: absolute;
     display: grid;
-    grid-template-columns: 20% 70%;
-    grid-template-rows: auto 10%;
-    column-gap: 5%;
+    grid-template-columns: 20% 5% 70% 5%;
+    grid-template-rows: auto 7%;
     row-gap: 2%;
     z-index: 1;
 }
@@ -180,8 +180,8 @@ img.profile {
     z-index: 3;
 }
 .item-goals {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
     align-self: start;
