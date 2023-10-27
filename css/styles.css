@@ -82,24 +82,26 @@ img.profile {
     height: 100%;
     width: 100%;
 }
-.container-header {
+.item-header {
     top: 0;
     left: 0;
-    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 50px;
     position: fixed;
-    grid-template-columns: 500px auto 200px 200px 200px 200px;
-    grid-template-rows: 100px;
-    column-gap: 0;
-    row-gap: 0;
     z-index: 2;
-    min-width: 100%;
+    width: 100%;
+    background-color: #1c87c9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 10%;
 }
 .container {
     top: 120px;
     position: relative;
     display: grid;
     grid-template-columns: 300px auto;
-    grid-template-rows: auto 100px;
+    grid-template-rows: auto 5%;
     column-gap: 80px;
     row-gap: 15px;
     z-index: 1;
@@ -172,12 +174,9 @@ img.profile {
     padding: 20px 0;
 }
 .item-name {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    align-self: center;
-    justify-self: center;
+    position: relative;
+    left: 5%;
+    margin-right: auto;
     z-index: 3;
 }
 .item-goals {
@@ -187,60 +186,19 @@ img.profile {
     grid-row-end: 2;
     align-self: start;
 }
-.item-next {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    align-self: center;
-    justify-self: center;
-    min-height: 100%
-    border-radius: 10px;
-    z-index: 3;
-}
-.item-prev {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    align-self: center;
-    justify-self: center;
-    min-height: 100%
-    border-radius: 10px;
-    z-index: 3;
-}
 .item-resume {
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    align-self: center;
-    justify-self: center;
+    position: relative;
+    right: 2%;
     min-height: 100%
     border-radius: 10px;
     z-index: 3;
 }
 .item-aboutme {
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    align-self: center;
-    justify-self: center;
+    position: relative;
+    right: 2%;
     min-height: 100%
     border-radius: 10px;
     z-index: 3;
-}
-.item-header {
-    background-color: #1c87c9;
-    grid-column-start: 1;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    z-index: 2;
-    justify-self: stretch;
-    align-self: stretch; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 div.profile {
     position: relative;
